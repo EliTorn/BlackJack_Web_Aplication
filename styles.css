@@ -1,16 +1,16 @@
 body {
     background-color: green;
 }
-
-#input-textbox {
-    padding: 10px;
+#form{
     border-radius: 5px;
-    border: 1px solid gray;
-    font-size: 16px;
-    box-shadow: 0px 0px 5px gray;
+    font-size: 18px;
 }
 
-#submitButton{
-    font-size:16px ;
-    margin-top: 5px;
+form input {
+    font-size: 20px;
+   margin-top: 10px;
+}
+
+form label{
+    color: white;
 }
