@@ -1,15 +1,13 @@
-// const submitButton = document.getElementById("submitButton");
-// submitButton.addEventListener("click", function(event) {
-//     event.preventDefault(); // Prevent the form from submitting
-//     const name = document.getElementById("name").value;
-//     // Do something with the name value
-//     console.log("Name submitted: " + name);
-// });
-
+<<<<<<<<< Temporary merge branch 1
 function doSomthing(){
     let a = document.querySelector("form");
     let b = a.el.value;
     alert(b);
-Document.getElementById("label").innerText = "Your bit was";
-
+=========
+function doSomthing() {
+    let a = document.querySelector("form");
+    let b = a.el.value;
+    console.log(b);
+    alert(b)
+>>>>>>>>> Temporary merge branch 2
 }
